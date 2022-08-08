@@ -1,0 +1,23 @@
+/* Name: Francois Smith Position: 28 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap');
+
+.card-header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .btn i {
+        transition: margin 0.5s, transform 0.5s;
+    }
+
+    .btn:hover i {
+        margin-left: 1.2rem !important;
+        transform: rotate(90deg);
+    }
+}
